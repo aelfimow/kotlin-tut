@@ -1,2 +1,2 @@
 # kotlin-tut
-My playground for lerning Kotlin 
+My playground for learning Kotlin programming language
