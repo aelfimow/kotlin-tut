@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     print("sum3: ")
     println(sum3(1, 2, 3))
     println("sum2eb: ${sum2eb(1, 2)}")
-    println("sum3eb: ${sum2eb(1, 2, 3)}")
+    println("sum3eb: ${sum3eb(1, 2, 3)}")
 }
 
 fun sum2(a: Int, b: Int): Int {
