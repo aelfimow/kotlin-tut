@@ -3,10 +3,13 @@ fun main(args: Array<String>) {
     print_english();
 }
 
+fun german_str(): String = "Hallo, Welt!"
+fun english_str(): String = "Hallo, Welt!"
+
 fun print_german() {
-    println("Hallo, Welt!")
+    println(german_str())
 }
 
 fun print_english() {
-    println("Hello, World!")
+    println(english_str())
 }
