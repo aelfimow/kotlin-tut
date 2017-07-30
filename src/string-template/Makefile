@@ -2,7 +2,7 @@ all: compile run
 	@echo No errors
 
 compile:
-	kotlinc template-string.kt -include-runtime -d template-string.jar
+	kotlinc string-template.kt -include-runtime -d string-template.jar
 
 run:
-	java -jar template-string.jar
+	java -jar string-template.jar
