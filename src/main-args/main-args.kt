@@ -1,10 +1,10 @@
 fun main(args: Array<String>) {
     println("args size: ${args.size}")
-    printAll(args)
+    printAll1(args)
     checkNumbers(args)
 }
 
-fun printAll(args: Array<String>) {
+fun printAll1(args: Array<String>) {
     var count = args.size;
     while (count > 0) {
         var tmp_index = args.size - count
