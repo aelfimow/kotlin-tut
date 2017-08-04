@@ -5,4 +5,5 @@ all:
 	${MAKE} -C cond-expr
 	${MAKE} -C main-args
 	${MAKE} -C for-loop
+	${MAKE} -C when-expr
 	@echo No errors
