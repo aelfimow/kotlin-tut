@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
     for (arg in args) {
-        Int value = arg.toIntOrNull()
+        val value = arg.toIntOrNull()
         if (value != null) {
             checkRange(value)
         }
