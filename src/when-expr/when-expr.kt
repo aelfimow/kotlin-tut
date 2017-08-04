@@ -4,7 +4,7 @@ fun main(args: Array<String>) {
     }
 }
 
-fun printInfo(obj: Any): String {
+fun printInfo(obj: Any) {
     when (obj) {
         "A" -> println("A wie Autobahn")
         "B" -> println("B wie Blödmann")
