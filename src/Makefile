@@ -6,4 +6,5 @@ all:
 	${MAKE} -C main-args
 	${MAKE} -C for-loop
 	${MAKE} -C when-expr
+	${MAKE} -C ranges
 	@echo No errors
