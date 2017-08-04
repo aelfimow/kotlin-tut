@@ -4,3 +4,4 @@ src/string-template/*.jar
 src/cond-expr/*.jar
 src/main-args/*.jar
 src/for-loop/*.jar
+src/when-expr/*.jar
