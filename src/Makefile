@@ -7,4 +7,5 @@ all:
 	${MAKE} -C for-loop
 	${MAKE} -C when-expr
 	${MAKE} -C ranges
+	${MAKE} -C collections
 	@echo No errors
