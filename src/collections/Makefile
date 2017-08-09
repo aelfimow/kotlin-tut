@@ -7,3 +7,4 @@ compile:
 run:
 	java -jar collections.jar Obst
 	java -jar collections.jar Bauteile
+	java -jar collections.jar Roboter

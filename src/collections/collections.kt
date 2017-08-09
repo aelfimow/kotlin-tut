@@ -1,11 +1,12 @@
 fun main(args: Array<String>) {
     when {
-        "Obst" in args -> collection_obst()
-        "Bauteile" in args -> collection_bauteile()
+        "Obst" in args -> collectionObst()
+        "Bauteile" in args -> collectionBauteile()
+        "Roboter" in args -> println("Keine Funktion für Roboter")
     }
 }
 
-fun collection_obst() {
+fun collectionObst() {
     val obst = setOf("Apfel", "Birne", "Kiwi", "Banane")
     when {
         "Tomate" !in obst -> println("Tomate ist nicht da")
@@ -13,7 +14,7 @@ fun collection_obst() {
     }
 }
 
-fun collection_bauteile() {
+fun collectionBauteile() {
     val bauteile = setOf("Widerstand", "Transistor", "Kondensator", "Spule")
     when {
         "Widerstand" in bauteile -> println("Widerstand ist da")
