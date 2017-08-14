@@ -6,6 +6,7 @@ fun main(args: Array<String>) {
     printConstants()
     printHex()
     printBin()
+    printConversions()
 }
 
 fun sum(a: Double, b: Double): Double {
@@ -50,4 +51,9 @@ fun printBin() {
     val c = 0b11110000_10101010_00011000
     val d = 0b11110000_11000011_00111100_00001111
     println("a = $a, b = $b, c = $c, d = $d")
+}
+
+fun printConversions() {
+    val value: Int = 42
+    println("value: ${value.toByte()}, ${value.toShort()}, ${value.toLong()}, ${value.toFloat()}, ${value.toDouble()}")
 }
