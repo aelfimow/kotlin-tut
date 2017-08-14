@@ -3,6 +3,9 @@ fun main(args: Array<String>) {
     println("sum = ${sum(1.0f, 1.0f)}")
     println("sum = ${sum(1L, 1L)}")
     println("sum = ${sum(1, 1)}")
+    printConstants()
+    printHex()
+    printBin()
 }
 
 fun sum(a: Double, b: Double): Double {
@@ -25,12 +28,26 @@ fun sum(a: Int, b: Int): Int {
     return a + b
 }
 
-fun sum(a: Short, b: Short): Short {
-    println("sum of Shorts")
-    return a + b
+fun printConstants() {
+    val a = 42
+    val b = 0x42
+    val c = 0b1010_1111_0000_1100
+    val d = 0b1010_1111_0000_1100_1010_1111_0000_1100
+    println("a = $a, b = $b, c = $c, d = $d")
 }
 
-fun sum(a: Byte, b: Byte): Byte {
-    println("sum of Bytes")
-    return a + b
+fun printHex() {
+    val a = 0x42
+    val b = 0x42_FF
+    val c = 0x42_FF_A0_B0
+    val d = 0x42FF_A1B1_DEAD_BEEF
+    println("a = $a, b = $b, c = $c, d = $d")
+}
+
+fun printBin() {
+    val a = 0b11110000
+    val b = 0b11110000_01011101
+    val c = 0b11110000_10101010_00011000
+    val d = 0b11110000_11000011_00111100_00001111
+    println("a = $a, b = $b, c = $c, d = $d")
 }
