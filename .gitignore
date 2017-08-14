@@ -7,3 +7,4 @@ src/for-loop/*.jar
 src/when-expr/*.jar
 src/ranges/*.jar
 src/collections/*.jar
+src/basic-types/*.jar
