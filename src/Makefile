@@ -8,4 +8,5 @@ all:
 	${MAKE} -C when-expr
 	${MAKE} -C ranges
 	${MAKE} -C collections
+	${MAKE} -C basic-types
 	@echo No errors
