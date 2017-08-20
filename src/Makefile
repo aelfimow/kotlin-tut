@@ -9,4 +9,5 @@ all:
 	${MAKE} -C ranges
 	${MAKE} -C collections
 	${MAKE} -C basic-types
+	${MAKE} -C bitwise-ops
 	@echo No errors
